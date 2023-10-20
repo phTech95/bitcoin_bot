@@ -31,7 +31,7 @@ def on_message(ws, message):
 
     if price > 29000:
         vender()
-    if price < 28000:
+    if price < 28100:
         comprar()
 def on_error(ws, error):
     print(f"Erro: {error}")
