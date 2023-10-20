@@ -44,7 +44,7 @@ def on_close(ws, close_status_code, close_msg):
 
 if __name__ == "__main__":
     ws = websocket.WebSocketApp("wss://ws.bitstamp.net/",
-                                on_open=on_open,git add
+                                on_open=on_open,
                                 on_message=on_message,
                                 on_error=on_error,
                                 on_close=on_close)
