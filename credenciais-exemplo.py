@@ -1,0 +1,3 @@
+USERNAME="3232"
+KEY= "xxx"
+SECRET="xxx"
